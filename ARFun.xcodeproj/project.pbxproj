@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFCDF7EC1EDC45BB004FE306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF7EB1EDC45BB004FE306 /* main.m */; };
-		BFCDF7EF1EDC45BB004FE306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF7EE1EDC45BB004FE306 /* AppDelegate.m */; };
-		BFCDF7F21EDC45BB004FE306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF7F11EDC45BB004FE306 /* ViewController.m */; };
-		BFCDF7F51EDC45BB004FE306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF7F31EDC45BB004FE306 /* Main.storyboard */; };
-		BFCDF7F71EDC45BB004FE306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF7F61EDC45BB004FE306 /* Assets.xcassets */; };
-		BFCDF7FA1EDC45BB004FE306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF7F81EDC45BB004FE306 /* LaunchScreen.storyboard */; };
 		BFCDF8051EDC45BB004FE306 /* ARFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8041EDC45BB004FE306 /* ARFunTests.m */; };
 		BFCDF8101EDC45BB004FE306 /* ARFunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF80F1EDC45BB004FE306 /* ARFunUITests.m */; };
+		BFCDF8391EDC461F004FE306 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF81E1EDC461F004FE306 /* AnnotationView.swift */; };
+		BFCDF83A1EDC461F004FE306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF81F1EDC461F004FE306 /* AppDelegate.swift */; };
+		BFCDF83B1EDC461F004FE306 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8231EDC461F004FE306 /* ARAnnotation.swift */; };
+		BFCDF83C1EDC461F004FE306 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8241EDC461F004FE306 /* ARAnnotationView.swift */; };
+		BFCDF83D1EDC461F004FE306 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8251EDC461F004FE306 /* ARConfiguration.swift */; };
+		BFCDF83E1EDC461F004FE306 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8261EDC461F004FE306 /* ARTrackingManager.swift */; };
+		BFCDF83F1EDC461F004FE306 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8271EDC461F004FE306 /* ARViewController.swift */; };
+		BFCDF8401EDC461F004FE306 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8291EDC461F004FE306 /* DebugMapViewController.swift */; };
+		BFCDF8411EDC461F004FE306 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF82B1EDC461F004FE306 /* DebugMapViewController.xib */; };
+		BFCDF8421EDC461F004FE306 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF82C1EDC461F004FE306 /* hdar_close.png */; };
+		BFCDF8431EDC461F004FE306 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF82D1EDC461F004FE306 /* hdar_close@2x.png */; };
+		BFCDF8441EDC461F004FE306 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF82E1EDC461F004FE306 /* hdar_close@3x.png */; };
+		BFCDF8451EDC461F004FE306 /* ObjCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8301EDC461F004FE306 /* ObjCMainViewController.m */; };
+		BFCDF8461EDC461F004FE306 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8311EDC461F004FE306 /* Place.swift */; };
+		BFCDF8471EDC461F004FE306 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8321EDC461F004FE306 /* PlaceAnnotation.swift */; };
+		BFCDF8481EDC461F004FE306 /* PlacesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8341EDC461F004FE306 /* PlacesLoader.swift */; };
+		BFCDF8491EDC461F004FE306 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF8361EDC461F004FE306 /* audio.mp3 */; };
+		BFCDF84A1EDC461F004FE306 /* bobDylan.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF8371EDC461F004FE306 /* bobDylan.png */; };
+		BFCDF84B1EDC461F004FE306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8381EDC461F004FE306 /* ViewController.swift */; };
+		BFCDF84D1EDC49E6004FE306 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF84C1EDC49E6004FE306 /* Info.plist */; };
+		BFCDF8521EDC4C4B004FE306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF8501EDC4C4B004FE306 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +51,37 @@
 
 /* Begin PBXFileReference section */
 		BFCDF7E71EDC45BB004FE306 /* ARFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCDF7EB1EDC45BB004FE306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFCDF7ED1EDC45BB004FE306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BFCDF7EE1EDC45BB004FE306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFCDF7F01EDC45BB004FE306 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFCDF7F11EDC45BB004FE306 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BFCDF7F41EDC45BB004FE306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFCDF7F61EDC45BB004FE306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFCDF7F91EDC45BB004FE306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFCDF7FB1EDC45BB004FE306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCDF8001EDC45BB004FE306 /* ARFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCDF8041EDC45BB004FE306 /* ARFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFunTests.m; sourceTree = "<group>"; };
 		BFCDF8061EDC45BB004FE306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCDF80B1EDC45BB004FE306 /* ARFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCDF80F1EDC45BB004FE306 /* ARFunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFunUITests.m; sourceTree = "<group>"; };
 		BFCDF8111EDC45BB004FE306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCDF81D1EDC461E004FE306 /* ARFun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARFun-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFCDF81E1EDC461F004FE306 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnotationView.swift; path = ARFun/AnnotationView.swift; sourceTree = "<group>"; };
+		BFCDF81F1EDC461F004FE306 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ARFun/AppDelegate.swift; sourceTree = "<group>"; };
+		BFCDF8231EDC461F004FE306 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		BFCDF8241EDC461F004FE306 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		BFCDF8251EDC461F004FE306 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		BFCDF8261EDC461F004FE306 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		BFCDF8271EDC461F004FE306 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		BFCDF8291EDC461F004FE306 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		BFCDF82B1EDC461F004FE306 /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
+		BFCDF82C1EDC461F004FE306 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
+		BFCDF82D1EDC461F004FE306 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
+		BFCDF82E1EDC461F004FE306 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		BFCDF82F1EDC461F004FE306 /* ObjCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjCMainViewController.h; path = ARFun/ObjCMainViewController.h; sourceTree = "<group>"; };
+		BFCDF8301EDC461F004FE306 /* ObjCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjCMainViewController.m; path = ARFun/ObjCMainViewController.m; sourceTree = "<group>"; };
+		BFCDF8311EDC461F004FE306 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = ARFun/Place.swift; sourceTree = "<group>"; };
+		BFCDF8321EDC461F004FE306 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceAnnotation.swift; path = ARFun/PlaceAnnotation.swift; sourceTree = "<group>"; };
+		BFCDF8331EDC461F004FE306 /* Places-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Places-Bridging-Header.h"; path = "ARFun/Places-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFCDF8341EDC461F004FE306 /* PlacesLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesLoader.swift; path = ARFun/PlacesLoader.swift; sourceTree = "<group>"; };
+		BFCDF8361EDC461F004FE306 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		BFCDF8371EDC461F004FE306 /* bobDylan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bobDylan.png; sourceTree = "<group>"; };
+		BFCDF8381EDC461F004FE306 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ARFun/ViewController.swift; sourceTree = "<group>"; };
+		BFCDF84C1EDC49E6004FE306 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ARFun/Info.plist; sourceTree = "<group>"; };
+		BFCDF84E1EDC4A40004FE306 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFCDF8511EDC4C4B004FE306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +112,24 @@
 		BFCDF7DE1EDC45BB004FE306 = {
 			isa = PBXGroup;
 			children = (
+				BFCDF84C1EDC49E6004FE306 /* Info.plist */,
+				BFCDF81E1EDC461F004FE306 /* AnnotationView.swift */,
+				BFCDF81F1EDC461F004FE306 /* AppDelegate.swift */,
+				BFCDF8201EDC461F004FE306 /* Base.lproj */,
+				BFCDF8211EDC461F004FE306 /* HDAugmentedReality */,
+				BFCDF82F1EDC461F004FE306 /* ObjCMainViewController.h */,
+				BFCDF8301EDC461F004FE306 /* ObjCMainViewController.m */,
+				BFCDF8311EDC461F004FE306 /* Place.swift */,
+				BFCDF8321EDC461F004FE306 /* PlaceAnnotation.swift */,
+				BFCDF8331EDC461F004FE306 /* Places-Bridging-Header.h */,
+				BFCDF8341EDC461F004FE306 /* PlacesLoader.swift */,
+				BFCDF8351EDC461F004FE306 /* Resources */,
+				BFCDF8381EDC461F004FE306 /* ViewController.swift */,
 				BFCDF7E91EDC45BB004FE306 /* ARFun */,
 				BFCDF8031EDC45BB004FE306 /* ARFunTests */,
 				BFCDF80E1EDC45BB004FE306 /* ARFunUITests */,
 				BFCDF7E81EDC45BB004FE306 /* Products */,
+				BFCDF81D1EDC461E004FE306 /* ARFun-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +146,6 @@
 		BFCDF7E91EDC45BB004FE306 /* ARFun */ = {
 			isa = PBXGroup;
 			children = (
-				BFCDF7ED1EDC45BB004FE306 /* AppDelegate.h */,
-				BFCDF7EE1EDC45BB004FE306 /* AppDelegate.m */,
-				BFCDF7F01EDC45BB004FE306 /* ViewController.h */,
-				BFCDF7F11EDC45BB004FE306 /* ViewController.m */,
-				BFCDF7F31EDC45BB004FE306 /* Main.storyboard */,
-				BFCDF7F61EDC45BB004FE306 /* Assets.xcassets */,
-				BFCDF7F81EDC45BB004FE306 /* LaunchScreen.storyboard */,
-				BFCDF7FB1EDC45BB004FE306 /* Info.plist */,
 				BFCDF7EA1EDC45BB004FE306 /* Supporting Files */,
 			);
 			path = ARFun;
@@ -117,7 +154,7 @@
 		BFCDF7EA1EDC45BB004FE306 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFCDF7EB1EDC45BB004FE306 /* main.m */,
+				BFCDF84E1EDC4A40004FE306 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +175,67 @@
 				BFCDF8111EDC45BB004FE306 /* Info.plist */,
 			);
 			path = ARFunUITests;
+			sourceTree = "<group>";
+		};
+		BFCDF8201EDC461F004FE306 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF8501EDC4C4B004FE306 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = ARFun/Base.lproj;
+			sourceTree = "<group>";
+		};
+		BFCDF8211EDC461F004FE306 /* HDAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF8221EDC461F004FE306 /* Classes */,
+				BFCDF82A1EDC461F004FE306 /* Resources */,
+			);
+			name = HDAugmentedReality;
+			path = ARFun/HDAugmentedReality;
+			sourceTree = "<group>";
+		};
+		BFCDF8221EDC461F004FE306 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF8231EDC461F004FE306 /* ARAnnotation.swift */,
+				BFCDF8241EDC461F004FE306 /* ARAnnotationView.swift */,
+				BFCDF8251EDC461F004FE306 /* ARConfiguration.swift */,
+				BFCDF8261EDC461F004FE306 /* ARTrackingManager.swift */,
+				BFCDF8271EDC461F004FE306 /* ARViewController.swift */,
+				BFCDF8281EDC461F004FE306 /* Debug */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BFCDF8281EDC461F004FE306 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF8291EDC461F004FE306 /* DebugMapViewController.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		BFCDF82A1EDC461F004FE306 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF82B1EDC461F004FE306 /* DebugMapViewController.xib */,
+				BFCDF82C1EDC461F004FE306 /* hdar_close.png */,
+				BFCDF82D1EDC461F004FE306 /* hdar_close@2x.png */,
+				BFCDF82E1EDC461F004FE306 /* hdar_close@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFCDF8351EDC461F004FE306 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF8361EDC461F004FE306 /* audio.mp3 */,
+				BFCDF8371EDC461F004FE306 /* bobDylan.png */,
+			);
+			name = Resources;
+			path = ARFun/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +305,8 @@
 				TargetAttributes = {
 					BFCDF7E61EDC45BB004FE306 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 36W2N5S5P8;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					BFCDF7FF1EDC45BB004FE306 = {
@@ -246,9 +346,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCDF7FA1EDC45BB004FE306 /* LaunchScreen.storyboard in Resources */,
-				BFCDF7F71EDC45BB004FE306 /* Assets.xcassets in Resources */,
-				BFCDF7F51EDC45BB004FE306 /* Main.storyboard in Resources */,
+				BFCDF84A1EDC461F004FE306 /* bobDylan.png in Resources */,
+				BFCDF8411EDC461F004FE306 /* DebugMapViewController.xib in Resources */,
+				BFCDF8431EDC461F004FE306 /* hdar_close@2x.png in Resources */,
+				BFCDF8521EDC4C4B004FE306 /* Main.storyboard in Resources */,
+				BFCDF8421EDC461F004FE306 /* hdar_close.png in Resources */,
+				BFCDF8441EDC461F004FE306 /* hdar_close@3x.png in Resources */,
+				BFCDF8491EDC461F004FE306 /* audio.mp3 in Resources */,
+				BFCDF84D1EDC49E6004FE306 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +378,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCDF7F21EDC45BB004FE306 /* ViewController.m in Sources */,
-				BFCDF7EF1EDC45BB004FE306 /* AppDelegate.m in Sources */,
-				BFCDF7EC1EDC45BB004FE306 /* main.m in Sources */,
+				BFCDF83A1EDC461F004FE306 /* AppDelegate.swift in Sources */,
+				BFCDF8481EDC461F004FE306 /* PlacesLoader.swift in Sources */,
+				BFCDF83D1EDC461F004FE306 /* ARConfiguration.swift in Sources */,
+				BFCDF84B1EDC461F004FE306 /* ViewController.swift in Sources */,
+				BFCDF83F1EDC461F004FE306 /* ARViewController.swift in Sources */,
+				BFCDF8471EDC461F004FE306 /* PlaceAnnotation.swift in Sources */,
+				BFCDF8391EDC461F004FE306 /* AnnotationView.swift in Sources */,
+				BFCDF8451EDC461F004FE306 /* ObjCMainViewController.m in Sources */,
+				BFCDF83E1EDC461F004FE306 /* ARTrackingManager.swift in Sources */,
+				BFCDF83B1EDC461F004FE306 /* ARAnnotation.swift in Sources */,
+				BFCDF8401EDC461F004FE306 /* DebugMapViewController.swift in Sources */,
+				BFCDF8461EDC461F004FE306 /* Place.swift in Sources */,
+				BFCDF83C1EDC461F004FE306 /* ARAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +426,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BFCDF7F31EDC45BB004FE306 /* Main.storyboard */ = {
+		BFCDF8501EDC4C4B004FE306 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFCDF7F41EDC45BB004FE306 /* Base */,
+				BFCDF8511EDC4C4B004FE306 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BFCDF7F81EDC45BB004FE306 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFCDF7F91EDC45BB004FE306 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,10 +533,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 36W2N5S5P8;
 				INFOPLIST_FILE = ARFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARFun-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -437,16 +550,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 36W2N5S5P8;
 				INFOPLIST_FILE = ARFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARFun-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		BFCDF8181EDC45BB004FE306 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ARFunTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +578,7 @@
 		BFCDF8191EDC45BB004FE306 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ARFunTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -471,6 +591,7 @@
 		BFCDF81B1EDC45BB004FE306 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ARFunUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFunUITests;
@@ -482,6 +603,7 @@
 		BFCDF81C1EDC45BB004FE306 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ARFunUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFunUITests;
@@ -509,6 +631,7 @@
 				BFCDF8161EDC45BB004FE306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFCDF8171EDC45BB004FE306 /* Build configuration list for PBXNativeTarget "ARFunTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +640,7 @@
 				BFCDF8191EDC45BB004FE306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFCDF81A1EDC45BB004FE306 /* Build configuration list for PBXNativeTarget "ARFunUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +649,7 @@
 				BFCDF81C1EDC45BB004FE306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
