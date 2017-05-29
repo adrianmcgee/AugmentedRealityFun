@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFCDF7EC1EDC45BB004FE306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF7EB1EDC45BB004FE306 /* main.m */; };
+		BFCDF7EF1EDC45BB004FE306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF7EE1EDC45BB004FE306 /* AppDelegate.m */; };
+		BFCDF7F21EDC45BB004FE306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF7F11EDC45BB004FE306 /* ViewController.m */; };
+		BFCDF7F51EDC45BB004FE306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF7F31EDC45BB004FE306 /* Main.storyboard */; };
+		BFCDF7F71EDC45BB004FE306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF7F61EDC45BB004FE306 /* Assets.xcassets */; };
+		BFCDF7FA1EDC45BB004FE306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF7F81EDC45BB004FE306 /* LaunchScreen.storyboard */; };
+		BFCDF8051EDC45BB004FE306 /* ARFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF8041EDC45BB004FE306 /* ARFunTests.m */; };
+		BFCDF8101EDC45BB004FE306 /* ARFunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF80F1EDC45BB004FE306 /* ARFunUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFCDF8011EDC45BB004FE306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDF7DF1EDC45BB004FE306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCDF7E61EDC45BB004FE306;
+			remoteInfo = ARFun;
+		};
+		BFCDF80C1EDC45BB004FE306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDF7DF1EDC45BB004FE306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCDF7E61EDC45BB004FE306;
+			remoteInfo = ARFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFCDF7E71EDC45BB004FE306 /* ARFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDF7EB1EDC45BB004FE306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFCDF7ED1EDC45BB004FE306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFCDF7EE1EDC45BB004FE306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFCDF7F01EDC45BB004FE306 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFCDF7F11EDC45BB004FE306 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFCDF7F41EDC45BB004FE306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFCDF7F61EDC45BB004FE306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCDF7F91EDC45BB004FE306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFCDF7FB1EDC45BB004FE306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCDF8001EDC45BB004FE306 /* ARFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDF8041EDC45BB004FE306 /* ARFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFunTests.m; sourceTree = "<group>"; };
+		BFCDF8061EDC45BB004FE306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCDF80B1EDC45BB004FE306 /* ARFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDF80F1EDC45BB004FE306 /* ARFunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFunUITests.m; sourceTree = "<group>"; };
+		BFCDF8111EDC45BB004FE306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCDF7E41EDC45BB004FE306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF7FD1EDC45BB004FE306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF8081EDC45BB004FE306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFCDF7DE1EDC45BB004FE306 = {
+			isa = PBXGroup;
+			children = (
+				BFCDF7E91EDC45BB004FE306 /* ARFun */,
+				BFCDF8031EDC45BB004FE306 /* ARFunTests */,
+				BFCDF80E1EDC45BB004FE306 /* ARFunUITests */,
+				BFCDF7E81EDC45BB004FE306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCDF7E81EDC45BB004FE306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF7E71EDC45BB004FE306 /* ARFun.app */,
+				BFCDF8001EDC45BB004FE306 /* ARFunTests.xctest */,
+				BFCDF80B1EDC45BB004FE306 /* ARFunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCDF7E91EDC45BB004FE306 /* ARFun */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF7ED1EDC45BB004FE306 /* AppDelegate.h */,
+				BFCDF7EE1EDC45BB004FE306 /* AppDelegate.m */,
+				BFCDF7F01EDC45BB004FE306 /* ViewController.h */,
+				BFCDF7F11EDC45BB004FE306 /* ViewController.m */,
+				BFCDF7F31EDC45BB004FE306 /* Main.storyboard */,
+				BFCDF7F61EDC45BB004FE306 /* Assets.xcassets */,
+				BFCDF7F81EDC45BB004FE306 /* LaunchScreen.storyboard */,
+				BFCDF7FB1EDC45BB004FE306 /* Info.plist */,
+				BFCDF7EA1EDC45BB004FE306 /* Supporting Files */,
+			);
+			path = ARFun;
+			sourceTree = "<group>";
+		};
+		BFCDF7EA1EDC45BB004FE306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF7EB1EDC45BB004FE306 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFCDF8031EDC45BB004FE306 /* ARFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF8041EDC45BB004FE306 /* ARFunTests.m */,
+				BFCDF8061EDC45BB004FE306 /* Info.plist */,
+			);
+			path = ARFunTests;
+			sourceTree = "<group>";
+		};
+		BFCDF80E1EDC45BB004FE306 /* ARFunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF80F1EDC45BB004FE306 /* ARFunUITests.m */,
+				BFCDF8111EDC45BB004FE306 /* Info.plist */,
+			);
+			path = ARFunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCDF7E61EDC45BB004FE306 /* ARFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDF8141EDC45BB004FE306 /* Build configuration list for PBXNativeTarget "ARFun" */;
+			buildPhases = (
+				BFCDF7E31EDC45BB004FE306 /* Sources */,
+				BFCDF7E41EDC45BB004FE306 /* Frameworks */,
+				BFCDF7E51EDC45BB004FE306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARFun;
+			productName = ARFun;
+			productReference = BFCDF7E71EDC45BB004FE306 /* ARFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFCDF7FF1EDC45BB004FE306 /* ARFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDF8171EDC45BB004FE306 /* Build configuration list for PBXNativeTarget "ARFunTests" */;
+			buildPhases = (
+				BFCDF7FC1EDC45BB004FE306 /* Sources */,
+				BFCDF7FD1EDC45BB004FE306 /* Frameworks */,
+				BFCDF7FE1EDC45BB004FE306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCDF8021EDC45BB004FE306 /* PBXTargetDependency */,
+			);
+			name = ARFunTests;
+			productName = ARFunTests;
+			productReference = BFCDF8001EDC45BB004FE306 /* ARFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFCDF80A1EDC45BB004FE306 /* ARFunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDF81A1EDC45BB004FE306 /* Build configuration list for PBXNativeTarget "ARFunUITests" */;
+			buildPhases = (
+				BFCDF8071EDC45BB004FE306 /* Sources */,
+				BFCDF8081EDC45BB004FE306 /* Frameworks */,
+				BFCDF8091EDC45BB004FE306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCDF80D1EDC45BB004FE306 /* PBXTargetDependency */,
+			);
+			name = ARFunUITests;
+			productName = ARFunUITests;
+			productReference = BFCDF80B1EDC45BB004FE306 /* ARFunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCDF7DF1EDC45BB004FE306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Adrian McGee";
+				TargetAttributes = {
+					BFCDF7E61EDC45BB004FE306 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					BFCDF7FF1EDC45BB004FE306 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFCDF7E61EDC45BB004FE306;
+					};
+					BFCDF80A1EDC45BB004FE306 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFCDF7E61EDC45BB004FE306;
+					};
+				};
+			};
+			buildConfigurationList = BFCDF7E21EDC45BB004FE306 /* Build configuration list for PBXProject "ARFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCDF7DE1EDC45BB004FE306;
+			productRefGroup = BFCDF7E81EDC45BB004FE306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCDF7E61EDC45BB004FE306 /* ARFun */,
+				BFCDF7FF1EDC45BB004FE306 /* ARFunTests */,
+				BFCDF80A1EDC45BB004FE306 /* ARFunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCDF7E51EDC45BB004FE306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDF7FA1EDC45BB004FE306 /* LaunchScreen.storyboard in Resources */,
+				BFCDF7F71EDC45BB004FE306 /* Assets.xcassets in Resources */,
+				BFCDF7F51EDC45BB004FE306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF7FE1EDC45BB004FE306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF8091EDC45BB004FE306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCDF7E31EDC45BB004FE306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDF7F21EDC45BB004FE306 /* ViewController.m in Sources */,
+				BFCDF7EF1EDC45BB004FE306 /* AppDelegate.m in Sources */,
+				BFCDF7EC1EDC45BB004FE306 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF7FC1EDC45BB004FE306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDF8051EDC45BB004FE306 /* ARFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF8071EDC45BB004FE306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDF8101EDC45BB004FE306 /* ARFunUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFCDF8021EDC45BB004FE306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCDF7E61EDC45BB004FE306 /* ARFun */;
+			targetProxy = BFCDF8011EDC45BB004FE306 /* PBXContainerItemProxy */;
+		};
+		BFCDF80D1EDC45BB004FE306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCDF7E61EDC45BB004FE306 /* ARFun */;
+			targetProxy = BFCDF80C1EDC45BB004FE306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFCDF7F31EDC45BB004FE306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCDF7F41EDC45BB004FE306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFCDF7F81EDC45BB004FE306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCDF7F91EDC45BB004FE306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFCDF8121EDC45BB004FE306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFCDF8131EDC45BB004FE306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCDF8151EDC45BB004FE306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFCDF8161EDC45BB004FE306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFCDF8181EDC45BB004FE306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ARFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFun.app/ARFun";
+			};
+			name = Debug;
+		};
+		BFCDF8191EDC45BB004FE306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ARFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFun.app/ARFun";
+			};
+			name = Release;
+		};
+		BFCDF81B1EDC45BB004FE306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ARFunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ARFun;
+			};
+			name = Debug;
+		};
+		BFCDF81C1EDC45BB004FE306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ARFunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.ARFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ARFun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCDF7E21EDC45BB004FE306 /* Build configuration list for PBXProject "ARFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDF8121EDC45BB004FE306 /* Debug */,
+				BFCDF8131EDC45BB004FE306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDF8141EDC45BB004FE306 /* Build configuration list for PBXNativeTarget "ARFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDF8151EDC45BB004FE306 /* Debug */,
+				BFCDF8161EDC45BB004FE306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFCDF8171EDC45BB004FE306 /* Build configuration list for PBXNativeTarget "ARFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDF8181EDC45BB004FE306 /* Debug */,
+				BFCDF8191EDC45BB004FE306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFCDF81A1EDC45BB004FE306 /* Build configuration list for PBXNativeTarget "ARFunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDF81B1EDC45BB004FE306 /* Debug */,
+				BFCDF81C1EDC45BB004FE306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCDF7DF1EDC45BB004FE306 /* Project object */;
+}
